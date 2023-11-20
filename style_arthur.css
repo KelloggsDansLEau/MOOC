@@ -1,0 +1,26 @@
+:root {
+    --text: #180202;
+    --background: antiquewhite;
+    --primary: #ff6d4d;
+    --secondary: #e6e6e5;
+    --accent: #d12600;
+}
+
+body {
+    border-color: var(--background);
+}
+
+header > ul {
+    margin: 2em;
+    background-color: aquamarine;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+header li {
+    font-size: 150%;
+    flex: 1;
+    text-align: center;
+}

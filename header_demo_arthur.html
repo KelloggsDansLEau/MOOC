@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>theOldFashion</title>
+
+</head>
+
+<style>
+    body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            background-color: #f0f0f0;
+            z-index: 1000;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        ul ul {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        #scrolling-text-half1,
+        #scrolling-text-half2 {
+            width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: width 0.5s;
+        }
+</style>
+
+<body>
+    <header>
+        
+        <ul>
+            <ul>
+                <li><img src="" alt=""></li>
+                <li><a href="">home</a></li>
+                <li><a href="">cour</a></li>
+                <li><div id="scrolling-text-half1"></div></li>
+            </ul>
+            <div>
+                <h1 id="scrolling-text">cour</h1>
+            </div>
+            <ul>
+                <li><div id="scrolling-text-half2"></div></li>
+                <li><a href="">entrainement</a></li>
+                <li><a href="">QCM</a></li>
+                <li><a href="">leaderboard</a></li>
+            </ul>
+        </ul>
+    </header>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            // Get the scroll position
+            const scrollPosition = window.scrollY;
+
+            // Calculate the new font size based on the scroll position
+            const fontSize = Math.max(30, 60 - scrollPosition * 0.02) + 'px';
+
+            // Apply the new font size to the scrolling text
+            document.getElementById('scrolling-text').style.fontSize = fontSize;
+
+            // Adjust the width of scrolling-text-half based on scroll position
+            const halfWidth = Math.max(0, scrollPosition - 200) + 'px';
+            document.getElementById('scrolling-text-half1').style.width = halfWidth;
+            document.getElementById('scrolling-text-half2').style.width = halfWidth;
+        });
+    </script>
+
+    <main>
+        <h1><span>Ashe</span>archère de givre</h1>
+        <article>
+            <h2>ashe, champion du jeu de league of legend</h2>
+            <p>voix original : Mellissa Hutchison</p>
+            <p>voix française : Brigitte Guedj</p>
+            <p><strong>Ashe</strong>, Archère de givre. Héritière d'Avarosa et de son arc mythique, Ashe règne
+                légitimement sur Freljord. Mais c'est un pays divisé qu'elle doit tenter de ramener à la paix et
+                l'unité, face à la Griffe Hivernale de Sejuanui et la rumeur du retoru des Gardiens du Givre de
+                Lissandra... Mariée à Tryndamere, pour des raison diplomatiques (la fédération des clans barbares), Ashe
+                peut compter sur le gage de fidélité d'Anivia, de Gragas, Nunu ou le digne Braum, et travaille de tout
+                cœur à voir un jour les terres de Freljord unies dans la paix.</p>
+            <p>Source : <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipédia</a></p>
+        </article>
+        <article>
+            <h2>ashe, champion du jeu de league of legend</h2>
+            <p>voix original : Mellissa Hutchison</p>
+            <p>voix française : Brigitte Guedj</p>
+            <p><strong>Ashe</strong>, Archère de givre. Héritière d'Avarosa et de son arc mythique, Ashe règne
+                légitimement sur Freljord. Mais c'est un pays divisé qu'elle doit tenter de ramener à la paix et
+                l'unité, face à la Griffe Hivernale de Sejuanui et la rumeur du retoru des Gardiens du Givre de
+                Lissandra... Mariée à Tryndamere, pour des raison diplomatiques (la fédération des clans barbares), Ashe
+                peut compter sur le gage de fidélité d'Anivia, de Gragas, Nunu ou le digne Braum, et travaille de tout
+                cœur à voir un jour les terres de Freljord unies dans la paix.</p>
+            <p>Source : <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipédia</a></p>
+        </article>
+        <article>
+            <h2>ashe, champion du jeu de league of legend</h2>
+            <p>voix original : Mellissa Hutchison</p>
+            <p>voix française : Brigitte Guedj</p>
+            <p><strong>Ashe</strong>, Archère de givre. Héritière d'Avarosa et de son arc mythique, Ashe règne
+                légitimement sur Freljord. Mais c'est un pays divisé qu'elle doit tenter de ramener à la paix et
+                l'unité, face à la Griffe Hivernale de Sejuanui et la rumeur du retoru des Gardiens du Givre de
+                Lissandra... Mariée à Tryndamere, pour des raison diplomatiques (la fédération des clans barbares), Ashe
+                peut compter sur le gage de fidélité d'Anivia, de Gragas, Nunu ou le digne Braum, et travaille de tout
+                cœur à voir un jour les terres de Freljord unies dans la paix.</p>
+            <p>Source : <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipédia</a></p>
+        </article>
+        <article>
+            <h2>ashe, champion du jeu de league of legend</h2>
+            <p>voix original : Mellissa Hutchison</p>
+            <p>voix française : Brigitte Guedj</p>
+            <p><strong>Ashe</strong>, Archère de givre. Héritière d'Avarosa et de son arc mythique, Ashe règne
+                légitimement sur Freljord. Mais c'est un pays divisé qu'elle doit tenter de ramener à la paix et
+                l'unité, face à la Griffe Hivernale de Sejuanui et la rumeur du retoru des Gardiens du Givre de
+                Lissandra... Mariée à Tryndamere, pour des raison diplomatiques (la fédération des clans barbares), Ashe
+                peut compter sur le gage de fidélité d'Anivia, de Gragas, Nunu ou le digne Braum, et travaille de tout
+                cœur à voir un jour les terres de Freljord unies dans la paix.</p>
+            <p>Source : <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipédia</a></p>
+        </article>
+        <article>
+            <h2>ashe, champion du jeu de league of legend</h2>
+            <p>voix original : Mellissa Hutchison</p>
+            <p>voix française : Brigitte Guedj</p>
+            <p><strong>Ashe</strong>, Archère de givre. Héritière d'Avarosa et de son arc mythique, Ashe règne
+                légitimement sur Freljord. Mais c'est un pays divisé qu'elle doit tenter de ramener à la paix et
+                l'unité, face à la Griffe Hivernale de Sejuanui et la rumeur du retoru des Gardiens du Givre de
+                Lissandra... Mariée à Tryndamere, pour des raison diplomatiques (la fédération des clans barbares), Ashe
+                peut compter sur le gage de fidélité d'Anivia, de Gragas, Nunu ou le digne Braum, et travaille de tout
+                cœur à voir un jour les terres de Freljord unies dans la paix.</p>
+            <p>Source : <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">wikipédia</a></p>
+        </article>
+
+
+        <aside>
+            <section>
+                <h3>A propos</h3>
+                <p>Bonjour ! Vous êtes sur le site de <strong>Nemo</strong>. Ce site a été créé pour servir d'execercice
+                    aux étudiant de BUT1 informatique d'Orléans</p>
+            </section>
+            <p><strong>Récemment</strong> sur <a href="https://twitter.com/">twitter</a></p>
+            <section>
+                <h3>activités récentes</h3>
+                <p>Mes activités sur les autres réseaux sociaux</p>
+                <ul>
+                    <li><a href="https://dribbble.com/">Dribbble</a></li>
+                    <li><a href="https://fr.linkedin.com/">Linkedin</a></li>
+                    <li><a href="https://www.last.fm/">Last.fm</a></li>
+                    <li><a href="https://www.flickr.com/">Flickr</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright © 2018-2022 Nemo Anon, All rights reserved, <strong>hosting</strong> by IUT Networks.</p>
+        <p><img src="img/rss-feed.png" alt="rss-feed.png"><strong>Teemo is the best !</strong></p>
+    </footer>
+</body>
+
+</html>

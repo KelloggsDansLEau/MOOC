@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="" alt=""></li>
+            <li><a href="">home</a></li>
+            <li><a href="">cour</a></li>
+            <li></li>
+            <li>cour</li>
+            <li></li>
+            <li><a href="">entrainement</a></li>
+            <li><a href="">QCM</a></li>
+            <li><a href="">leaderboard</a></li>
+        </ul>
+    </header>
+
+    <div id="array_question">
+        <section><h1> Types (str, int, bool, liste, tuples, dict) </h1></section>
+        <section><h1> entrée-sortie (print, input) </h1></section>
+        <section><h1> Boucle for (indice et élément) </h1></section>
+        <section><h1> opérateurs (or, and, *, /, +)  </h1></section>
+        <section><h1> len() </h1></section>
+        <section><h1> Types d’algorithmes (calcul, cumul…) </h1></section>
+        <section><h1> range() </h1></section>
+        <section><h1> Algorithmes </h1></section>
+        <section><h1> Fonctions </h1></section>
+        <section><h1> Assert </h1></section>
+    </div>
+        
+    <div>
+        <button onclick="toggleDiv()">next question</button>
+    </div>
+    
+    <script>
+        rootnode = document.getElementById("array_question");
+        for (let item of rootnode.children) {
+            item.style.display = "none";
+        };
+        currentDivIndex=0;
+        rootnode.children[0].style.display="block";
+        function toggleDiv() {
+            console.log("cour.html currentDivIndex",currentDivIndex);
+            rootnode.appendChild(document.createElement("h1"))
+            /* currentDivIndex < rootnode.length - 1 */
+            if (true) {
+                rootnode.children[currentDivIndex].style.display="none";
+                currentDivIndex++;
+                rootnode.children[currentDivIndex].style.display="block";
+            };
+        }
+    </script>
+</body>
+</html>
