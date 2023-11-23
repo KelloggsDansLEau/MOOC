@@ -1,0 +1,146 @@
+*{
+    font-family: "Segoe UI", Arial,"Noto Sans","Liberation Sans";
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DEE2E6;
+    margin: 0%;
+}
+
+header,
+footer {
+    flex-basis: 100%;
+    background: #000f52;
+    background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
+}
+#9AC8EB
+#B6D8F2
+#5784BA
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, nav {
+    flex-basis: 100%;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+nav li{
+    flex-grow: 1;
+    text-align: center;
+    border-left: black solid 1px;
+}
+
+nav a{
+    width: 100%;
+    background-color: #5784BA;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav a:hover{
+    background-color: rgba(87, 132, 186, 0.623)
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+
+section{
+    border: black solid 1px;
+}
+
+main{
+    flex-basis: 68%;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+aside{
+    flex-basis: 28%;
+    border: black solid 1px;
+    margin: 10px;
+}
+
+.question{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    width: 7em;
+    padding: 0.5em;
+    margin-bottom: 1.8em;
+    background-color: #f8f9fa;
+    border: 1px solid #cad0d7;
+    border-radius: 2px;
+    flex-basis: 15%;
+    margin-right: 2em;
+}
+
+.content{
+
+    background-color: #e9f6f8;
+    border-color: #bee5eb;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background-color: #e9f6f8;
+    border-color: #bee5eb;
+    flex-basis: 85%;
+    padding: 0rem 1.25rem;
+
+}
+
+#button_valider_page{
+    width: 300px;
+    background-color: #f8f9fa;
+    font-size: large;
+    height: 50px;
+}
+
+code{
+    background: #ded8d7; padding: 10px;
+    display: block;
+    font-size: 1.1em;
+    word-wrap: break-word;
+    font-family: monospace;
+}
+
+.form-text, select{
+    display: inline-block;
+    width: auto;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #e9ecef;
+    opacity: 1;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    margin: 5px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
