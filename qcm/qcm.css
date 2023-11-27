@@ -108,7 +108,6 @@ aside{
     border-color: #bee5eb;
     flex-basis: 85%;
     padding: 0rem 1.25rem;
-
 }
 
 #button_valider_page{
@@ -124,6 +123,16 @@ code{
     font-size: 1.1em;
     word-wrap: break-word;
     font-family: monospace;
+}
+
+pre{
+    font-size: 1.1em;
+}
+
+.underline{
+    font-family: monospace;
+    text-decoration: underline;
+
 }
 
 .form-text, select{
