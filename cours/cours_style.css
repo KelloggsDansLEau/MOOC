@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(159, 187, 197);
+}
+
+header, footer {
+    border: 1px rgba(0, 15, 82, 1) solid;
+    background: linear-gradient(90deg, rgba(0, 15, 82, 1) 0%, rgb(60, 123, 210) 100%);
+}
+
+header nav li {
+    display: inline;
+    text-align: center;
+    border: black solid 1px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    background-color: #29abab;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+main li{
+    border: 1px black solid;
+    list-style-type: none;
+}
+
+.Cours{
+    display: none;
+    padding-left: 20px;
+}
+
+main li:hover .Cours{
+    display: block;
+}
+
