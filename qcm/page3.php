@@ -5,12 +5,12 @@
     
     <main>
     <form action="page4.php" method="post" id="form">
-        <input type="hidden" name="page" value="1">
+        <input type="hidden" name="page" value="3">
     <h1 id="titlepage">QCM Noté : les Algorithmes</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 2</p>
+            <p>Noté sur 1,00</p>
         </div>
         <div class="content">
             <p>On considère l'algorithme compte_voiture_rouges qui compte le nombre de voitures rouges.</p>
@@ -21,7 +21,7 @@
 <span class="underline">algo</span>: compte_voitures_rouges
     <span class="underline">paramètres</span>: liste_voitures (liste) : la liste des voitures
     <span class="underline">résutat</span>: (entier) : le nombre de voitures rouges
-    début :
+    <span class="underline">début</span> :
     <select id="p1_q1_1" name="p1_q1_1">
         <option value=""></option>
         <option value="1">mettre 0 dans le compteur</option>
@@ -70,7 +70,7 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 2</p>
+            <p>Noté sur 1,00</p>
         </div>
         <div class="content">
             <p>On considère l'algorithme mystere suivant:</p>

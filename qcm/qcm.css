@@ -118,7 +118,8 @@ aside{
 }
 
 code{
-    background: #ded8d7; padding: 10px;
+    background: #ded8d7;
+    padding: 10px;
     display: block;
     font-size: 1.1em;
     word-wrap: break-word;
@@ -135,7 +136,7 @@ pre{
 
 }
 
-.form-text, select{
+.form-text, .form-short-text, select{
     display: inline-block;
     width: auto;
     height: calc(1.5em + 0.75rem + 2px);
@@ -152,4 +153,16 @@ pre{
     margin: 5px;
     font-family: inherit;
     box-sizing: border-box;
+}
+
+.form-short-text{
+    width: 4em;
+}
+
+.form-text:focus, .form-short-text:focus, select:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }

@@ -10,7 +10,7 @@
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 2</p>
+            <p>Noté sur 1,00</p>
         </div>
         <div class="content">
             <p>Choisissez les noms des types de bases du langage Python :</p>
@@ -62,7 +62,7 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 2</p>
+            <p>Noté sur 1,00</p>
         </div>
         <div class="content">
             <p>Soit la variable ci-après :</p>
@@ -79,62 +79,13 @@
     <div class="question">
         <div class="info">
             <h3>Question 3</h3>
-            <p>Noté sur 2</p>
+            <p>Noté sur 1,00</p>
         </div>
         <div class="content">
             <p>Soit la variable ci-après :</p>
             <code>res = 47.5</code>
             <label for="p1_q3">Quel est le type de la variable res ?</label>
             <select id="p1_q3" name="p1_q3">
-                <option value=""></option><option value="float">float</option>
-                <option value="int">int</option><option value="str">str</option>
-                <option value="bool">bool</option><option value="set">set</option>
-                <option value="dict">dict</option>
-            </select>
-        </div>
-    </div>
-    <div class="question">
-        <div class="info">
-            <h3>Question 4</h3>
-            <p>Noté sur 2</p>
-        </div>
-        <div class="content">
-            <p>Soit la variable ci-après :</p>
-            <code>res = {“plop”:56,”plouf”:47}</code>
-            <ul>
-                <li>
-                    <label for="p1_q4_1">Quel est le type de la variable res ?</label>
-                    <select id="p1_q4_1" name="p1_q4_1">
-                        <option value=""></option><option value="float">float</option>
-                        <option value="int">int</option><option value="str">str</option>
-                        <option value="bool">bool</option><option value="set">set</option>
-                        <option value="dict">dict</option>
-                    </select>
-                </li>
-                <li>
-                    <label for="p1_q4_2">Quel est le type de ses éléments (de ses clés pour un dictionnaire) ?</label>
-                    <select id="p1_q4_2" name="p1_q4_2">
-                        <option value=""></option><option value="float">float</option>
-                        <option value="int">int</option><option value="str">str</option>
-                        <option value="bool">bool</option><option value="set">set</option>
-                        <option value="dict">dict</option>
-                    </select>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    
-    <div class="question">
-        <div class="info">
-            <h3>Question 5</h3>
-            <p>Noté sur 2</p>
-        </div>
-        <div class="content">
-            <p>Soit la variable ci-après :</p>
-            <code>res = {3,6,9,7,5,4}</code>
-            <label for="p1_q5">Quel est le type de la variable res ?</label>
-            <select id="p1_q5" name="p1_q5">
                 <option value=""></option><option value="float">float</option>
                 <option value="int">int</option><option value="str">str</option>
                 <option value="bool">bool</option><option value="set">set</option>
