@@ -1,12 +1,38 @@
 <?php
-    define('page1_q1_1','int');
-    define('page1_q1_2','float');
-    define('page1_q1_3','bool');
-    define('page1_q1_4','str');
-    define('page1_q2','str');
-    define('page1_q3','float');
-    define('page1_q4_1','dict');
-    define('page1_q4_2','str');
-    define('page1_q5','set');
+    $p1_q1_1 = 'int';
+    $p1_q1_2 = 'float';
+    $p1_q1_3 = 'bool';
+    $p1_q1_4 = 'str';
+    $p1_q2 = 'str';
+    $p1_q3 = 'float';
+
+    $p2_q1_1 = 'float';
+    $p2_q1_2 = '5.0';
+    $p2_q2_1 = 'int';
+    $p2_q2_2 = '16';
+    $p2_q3_1 = 'bool';
+    $p2_q3_2 = 'True';
+
+    $p3_q1_1 = '1';
+    $p3_q1_2 = '3';
+    $p3_q1_3 = '2';
+    $p3_q1_4 = '4';
+    $p3_q1_5 = '5';
+    $p3_q2 = 'c3';
+
+    $p4_q1 = '22';
+    $p4_q2 = '2';
+
+    $p5_q1_1 = '12';
+    $p5_q1_2 = '12';
+    $p5_q1_3 = '-5';
+
+    $p6_q1 = '4';
+    $p6_q2 = '8';
+    $p6_q3 = '2';
+
+    $p7_q1 = 'range(2,6)';
+    $p7_q2 = '0,1,2';
+    $p7_q3 = 'range(6)';
 
 ?>

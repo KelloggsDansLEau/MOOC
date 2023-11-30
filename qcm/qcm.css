@@ -15,9 +15,6 @@ footer {
     background: #000f52;
     background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
 }
-#9AC8EB
-#B6D8F2
-#5784BA
 
 header{
     display: flex;
@@ -85,10 +82,11 @@ aside{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    flex-basis: 68%;
 }
 
 .info{
-    width: 7em;
     padding: 0.5em;
     margin-bottom: 1.8em;
     background-color: #f8f9fa;
@@ -96,6 +94,7 @@ aside{
     border-radius: 2px;
     flex-basis: 15%;
     margin-right: 2em;
+    height: 5%;
 }
 
 .content{
@@ -124,6 +123,7 @@ code{
     font-size: 1.1em;
     word-wrap: break-word;
     font-family: monospace;
+    color: black;
 }
 
 pre{
@@ -155,9 +155,20 @@ pre{
     box-sizing: border-box;
 }
 
+.check{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(2, 119, 47, 0.25);
+}
+
+.wrong{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(248, 1, 1, 0.25)
+}
+
 .form-short-text{
     width: 4em;
 }
+
 
 .form-text:focus, .form-short-text:focus, select:focus{
     color: #495057;
@@ -165,4 +176,76 @@ pre{
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+h4{
+    margin-top: 0px;
+}
+
+.outcome{
+    color: #977204;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: 0.75rem 1.25rem;
+}
+
+.congrats{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbdbdb;
+    border: 3px solid #a1a1a1;
+    padding: 10px;
+    margin: 15px;
+    flex-basis: 90%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.congrats > h2, .congrats > h3, .congrats > p{
+    flex-basis: 100%;
+    color: #155724;
+    text-align: center;
+}
+
+#firstname, #name {
+    flex-basis: 100%;
+    flex-grow: 1;
+    width: 300px;
+    height: 50px;
+    background-color: #f8f9fa;
+    font-size: large;
+}
+
+.button-65 {
+    background-color: #2f80ed;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 14px 30px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-65:hover {
+    background-color: #1366d6;
+    box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+
+.button-65:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
 }

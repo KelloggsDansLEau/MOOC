@@ -19,10 +19,10 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <!--main>
     <div id="timer"></div>
 
-    </main>
+    </main-->
 
 </body>
 </html>

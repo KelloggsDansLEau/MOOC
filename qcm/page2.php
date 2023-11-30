@@ -2,10 +2,18 @@
 <html lang="fr">
 <body>
     <?php include('structure.php'); ?>
+
     
     <main>
     <form action="page3.php" method="post" id="form">
         <input type="hidden" name="page" value="2">
+
+        <input type="hidden" name="p1_q1_1" value="<?php echo $_POST['p1_q1_1']?>">
+        <input type="hidden" name="p1_q1_2" value="<?php echo $_POST['p1_q1_2']?>">
+        <input type="hidden" name="p1_q1_3" value="<?php echo $_POST['p1_q1_3']?>">
+        <input type="hidden" name="p1_q1_4" value="<?php echo $_POST['p1_q1_4']?>">
+        <input type="hidden" name="p1_q2" value="<?php echo $_POST['p1_q2']?>">
+        <input type="hidden" name="p1_q3" value="<?php echo $_POST['p1_q3']?>">
     <h1 id="titlepage">QCM Noté : les Opérateurs (or, and, *, +, /)</h1>
     <div class="question">
         <div class="info">
@@ -44,8 +52,8 @@
             <code>3 * 5 - 1 + 2</code>
                 <ul>
                     <li>
-                    <label for="p2_q2">Quel est le type de cette expression ? </label>
-                        <select id="p2_q2" name="p2_q2">
+                    <label for="p2_q2_1">Quel est le type de cette expression ? </label>
+                        <select id="p2_q2_1" name="p2_q2_1">
                             <option value=""></option>
                             <option value="float">float</option>
                             <option value="int">int</option>
@@ -55,8 +63,8 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q2">Quel est la valeur de cette expression ? </label>
-                        <input type="text" class="form-short-text" name="p2_q2">
+                        <label for="p2_q2_2">Quel est la valeur de cette expression ? </label>
+                        <input type="text" class="form-short-text" name="p2_q2_2">
                     </li>
                 </ul>
         </div>
@@ -71,8 +79,8 @@
             <code>True or False</code>
                 <ul>
                     <li>
-                    <label for="p2_q3">Quel est le type de cette expression ? </label>
-                        <select id="p2_q3" name="p2_q3">
+                    <label for="p2_q3_1">Quel est le type de cette expression ? </label>
+                        <select id="p2_q3_1" name="p2_q3_1">
                             <option value=""></option>
                             <option value="float">float</option>
                             <option value="int">int</option>
@@ -82,8 +90,8 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q3">Quel est la valeur de cette expression ? </label>
-                        <input type="text" class="form-short-text" name="p2_q3">
+                        <label for="p2_q3_2">Quel est la valeur de cette expression ? </label>
+                        <input type="text" class="form-short-text" name="p2_q3_2">
                     </li>
                 </ul>
         </div>
