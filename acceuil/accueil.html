@@ -1,141 +1,43 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cours</title>
-    <link rel="stylesheet" href="cours_style.css">
-    <link rel="stylesheet" href="cours_pos.css">
+    <title>acceuil</title>
+    <link rel="stylesheet" href="position_acceuil.css">
+    <link rel="stylesheet" href="style_acceuil.css">
 </head>
 <body>
     <header>
-        <h1>MOOC - Cours</h1>
-        <nav>  
-            <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">Cours</a></li>
-                <li><a href="">Entrainement</a></li>
-                <li><a href="./page1.php">QCM Noté</a></li>
-                <li><a href="./leaderboard.php">Classement</a></li>
-            </ul>
-        </nav>
+        <H1>MOOC - Python</H1>
+        <p>Teste tes connaissances en python !!!!</p>
     </header>
     <main>
-        <ul>
-            <li id="cours_type">
-                <h2>1. Qu'est-ce qu'un type ?</h2>
-                <div class="Cours">
-                    <p>En Python il existe différents types de valeurs* : <br>
-                        <br>
-                        Les entiers relatifs sont baptisés “int”. <br>
-                        15 →int <br>
-                        <br>
-                        Les réels sont baptisés “float”.<br>
-                        15,5 → float<br>
-                        <br>
-                        Les booléens peuvent avoir 2 valeurs différentes: True ou False (Vrai ou Faux).<br>
-                        16 &lt; 18 → True<br>
-                        <br>
-                        Les chaînes de caractère sont quant à elles baptisées “str”. <br>
-                        “Programmation” → str<br>
-                        <br>
-                        Dict : Un dictionnaire est une séquence de paires « clé : valeur » séparées par virgules et mises entre accolades.<br>
-                        {“Rondoudou” : “fée”, “Pikachu” : “électrique, “Dracaufeu” : “feu”}<br>
-                        <br>
-                        List : Une liste est déclarée par une série de valeurs séparées par des virgules, et le tout encadré par des crochets. Elle est mutable, c'est-à-dire qu’on peut modifier ou supprimer les éléments qu’elle contient.<br>
-                        [15,76,89,”ordinateur, “Sac-à-main”]<br>
-                        <br>
-                        Tuple : Un tuple est une séquence non modifiable de valeurs (immutable).<br>
-                        (“apple”, “pomme”)<br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        *Une variable est une zone de la mémoire de l'ordinateur dans laquelle une valeur (ou donnée) est stockée. Aux yeux du programmeur, cette variable est définie par un nom.</p>
+        <div id="bouttons">
+            <a href="" class="button_link">
+                <div id="Cours" class="button">
+                    <h1>Cours</h1>
                 </div>
-            </li>
-            <li id="Cours_ope">
-                <h2>2. Les opérateurs (or, and, *, +, /)</h2>
-                <div class="Cours">
-                    <p>Les opérateurs sont des instructions particulières qui fournissent une valeur résultant d’un calcul.<br>
-                        <br>
-                        Une expression a un type et une valeur (résultat du calcul).<br>
-                        Comme en mathématiques, les expressions sont évaluées suivant les priorités des opérateurs et des parenthèses :<br>
-                        <br>
-                        + → symbolise l’addition<br><br>
-                        -  → symbolise la soustraction<br><br>
-                        * → symbolise la multiplication<br><br>
-                        / → symbolise la division<br><br>
-                        ** → symbolise la puissance<br><br>
-                        “&lt;” et “&gt;” : plus petit et plus grand.<br><br>
-                        “&lt;=” et “=&gt;” : plus petit ou égal et plus grand et égal.<br><br>
-                        “==” : symbolise l’égalité<br><br>
-                        “!=” : symbolise la différence <br><br>
-                        “or” : “expression or expression” si une des expression est vraie alors la condition est remplie<br><br>
-                        “and” : “expression and expression” il faut que les deux soient vraies pour que la condition soit vraie
-</p>
+            </a>
+            <a href="" class="button_link">
+                <div id="Entrainement" class="button">
+                    <h1>Entrainement</h1>
                 </div>
-            </li>
-            <li id="Cours_Algo">
-                <h2>3. Qu'est-ce qu'un Algorithme ?</h2>
-                <div class="Cours">
-                    <p>Un algorithme est une séquence d'instructions pour résoudre un problème.<br><br>
-                        Les instructions sont constituées 
-                        de phrases en français sont par la suite traduites pour constituer un code.</p>
+            </a>
+            <a href="" class="button_link">
+                <div id="QCM" class="button">
+                    <h1>QCM</h1>
                 </div>
-            </li>
-            <li id="Cours_func">
-                <h2>4. Qu'est-ce qu'une fonction ?</h2>
-                <div class="Cours">
-                    <p>Une fonction est une manière d'organiser et de 
-                        réutiliser du code en le regroupant sous un nom spécifique. <br><br>
-                        Elle prend des arguments en entrée, effectue des opérations, et renvoie un résultat.<br><br>
-                        En Python il existe des fonctions déjà 
-                        créées telles que “sort()” ou encore “min()” et “max()”.</p>
-                </div>
-            </li>
-            <li id="Cours_assert">
-                <h2>5. Qu'est-ce qu'une assertion ?</h2>
-                <div class="Cours">
-                    <p>En programmation, l'instruction "assert" est utilisée pour vérifier qu'une condition spécifiée est vraie. <br><br>
-                        Si la condition est vraie, le programme continue normalement.<br><br>
-                        Si la condition est fausse, le programme lève une exception,
-                        généralement une “assertion error”, indiquant qu'il y a un problème.<br><br>
-                        L’instruction assert permet donc de vérifier qu’un code fonctionne</p>
-                </div>
-            </li>
-            <li id="Cours_len">
-                <h2>6. La fonction len()</h2>
-                <div class="Cours">
-                    <p>La fonction len() en programmation est utilisée pour obtenir la longueur d'une séquence,
-                        telle qu'une chaîne de caractères, une liste, ou un tuple. <br><br>
-                        Elle retourne le nombre d'éléments présents dans la séquence. <br><br>
-                        len(“paille”) → 6<br><br>
-                        len(“paille”*2) → 12<br><br>
-                        len(“paille”)*2 → 12<br><br>
-                        len(82) → Erreur<br><br>
-                        len([“toto”, “tata”, "paille"]) → 2</p>
-                </div>
-            </li>
-            <li id="Cours_range">
-                <h2>7. La fonction range()</h2>
-                <div class="Cours">
-                    <p>La fonction range() en programmation est utilisée pour générer une séquence d'entiers dans un intervalle spécifié. 
-                        Elle est souvent utilisée dans les “boucles for” pour itérer sur une séquence d'entiers.<br><br>
-                        En Python, la fonction range() peut être utilisée de plusieurs manières, 
-                        mais la forme la plus courante est range(a), 
-                        où “a” est la valeur jusqu'à laquelle la séquence doit aller (non incluse). <br><br>
-                        Par exemple, range(5) générera la séquence d'entiers de 0 à 4.<br><br>
-                        Une autre forme courante est range(a, b), 
-                        où “a” est la valeur de départ de la séquence et” b” la valeur jusqu'à laquelle la séquence doit aller (non incluse).<br><br>
-                        Par exemple, range(2, 8) générera la séquence d'entiers de 2 à 7.
-                        </p>
-                </div>
-            </li>
-        </ul>
+            </a>
+        </div>
     </main>
     <footer>
-        A propos
+        <section id="IUT">
+            <p><a href="https://www.univ-orleans.fr/fr/iut-orleans/formation/informatique/but-informatique">Iut informatique</a></p>
+        </section>
+        <section id="sources">
+            <a href="https://smallpdf.com/fr/blog/telecharger-gratuitement-des-feuilles-a-petits-carreaux-au-format-pdf">source du gif de fond</a>
+        </section>
     </footer>
 </body>
 </html>
