@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <div id="array_question">
+<div>myClass1</div>
+<div>myClass2</div>
+<div>myClass3</div>
+<div>myClass4</div>
+<div>myClass5</div>
+    </div>
+
+    <div>
+        <button onclick="toggleDiv()">next question</button>
+    </div>
+    
+    <script>
+        rootnode = document.getElementById("array_question");
+        for (let item of rootnode.children) {
+            item.style.display = "none";
+        };
+        currentDivIndex=0;
+        rootnode.children[0].style.display="block";
+        function toggleDiv() {
+            console.log("cour.html currentDivIndex",currentDivIndex);
+            rootnode.appendChild(document.createElement("h1"))
+            /* currentDivIndex < rootnode.length - 1 */
+            if (true) {
+                rootnode.children[currentDivIndex].style.display="none";
+                currentDivIndex++;
+                rootnode.children[currentDivIndex].style.display="block";
+            };
+        }
+    </script>
+
+</body>
+</html>
