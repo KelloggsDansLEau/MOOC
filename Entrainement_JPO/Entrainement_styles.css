@@ -1,0 +1,162 @@
+*{
+    font-family: "Segoe UI", Arial,"Noto Sans","Liberation Sans";
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DEE2E6;
+    margin: 0%;
+}
+
+header,
+footer {
+    flex-basis: 100%;
+    background: #000f52;
+    background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, nav {
+    flex-basis: 100%;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+nav li{
+    flex-grow: 1;
+    text-align: center;
+    border-left: black solid 1px;
+}
+
+nav a{
+    width: 100%;
+    background-color: #5784BA;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav a:hover{
+    background-color: rgba(87, 132, 186, 0.623)
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+.button {
+    width: 400px;
+    background-color: #08c0c0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform .5s;
+    
+}
+.button:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+
+
+  
+  .button:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.03); 
+  }
+
+main section{
+    margin-bottom: 20px;
+    background-color: #e9f6f8;
+    border: 10px white solid;
+}
+
+main{
+    flex-basis: 68%;
+   
+    margin: 10px;
+    margin-left: 25px;
+}
+
+
+
+div{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+#gpe {
+    margin: 5px;
+}
+
+
+
+.skip {
+    width: 100;
+    background-color: rgba(87, 132, 186, 0.623);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform .5s;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.skip:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+
+
+
+
+#code1{
+    background: #ded8d7;
+    width: 255px;
+    
+}
+
+#code2{
+    background: #ded8d7;
+    width: 430px;
+    
+}
+
+label,input{
+    background-color: lightgray;
+}
