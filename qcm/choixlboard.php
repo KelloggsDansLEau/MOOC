@@ -3,11 +3,11 @@
 
 <body>
     <?php include('structure.php'); 
-    $score = $_POST['score']/17*20;
+    $score = round($_POST['score']/17*20, 2);
     ?>
 
     <div class="congrats">
-        <h2>Souhaitez vous inscrire votre score de <?php echo $score?>/20,00 au Classement ?</h2>
+        <h2>Souhaitez vous inscrire votre score de <?php echo $score?>/20 au Classement ?</h2>
         <form action="reqlboard.php" method="post">
             <input type="hidden" name="score" value="<?php echo $score?>">
 

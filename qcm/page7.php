@@ -46,7 +46,7 @@
             <p>Noté sur 0,25</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel ( le plus simple possible: range(a,b) ) de la fonction range permettant de générer la séquence de nombres suivante:
+            <p>Ecrivez l'appel ( Sous cette forme : range(a,b) ) de la fonction range permettant de générer la séquence de nombres suivante:
                 <span style="color: #FF00BF;">2, 3, 4, 5</span>
             </p>
             <label for="p7_q1">Réponse: </label>
@@ -75,8 +75,8 @@
             <p>Noté sur 0,25</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel ( le plus simple possible: range(a) ) de la fonction range permettant de générer la séquence de nombres suivante:
-                <span style="color: #FF00BF;">0, 1 2, 3, 4, 5</span>
+            <p>Ecrivez l'appel ( Sous cette forme : range(a) ) de la fonction range permettant de générer la séquence de nombres suivante:
+                <span style="color: #FF00BF;">0, 1, 2, 3, 4, 5</span>
             </p>
             <label for="p7_q3">Réponse: </label>
             <input type="text" class="form-text" name="p7_q3">

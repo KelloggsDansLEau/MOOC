@@ -108,10 +108,10 @@
             <label for="p3_q2">Que fait l'algorithme ?</label>
             <select id="p3_q2" name="p3_q2">
                 <option value=""></option>
-                <option value="c1">Lorem ipsum dolor sit amet</option>
-                <option value="c2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</option>
+                <option value="c1">Indique si il y a plus de consonnes que de voyelles dans un mot</option>
+                <option value="c2">Renvoie le nombre de voyelles d'un mot</option>
                 <option value="c3">Indique si il y a plus de voyelles que de consonnes dans un mot</option>
-                <option value="c4">Lorem ipsum dolor sit amet consectetur adipisicing.</option>
+                <option value="c4">Renvoie le nombre de consonnes d'un mot</option>
             </select>
         </div>
     </div>
