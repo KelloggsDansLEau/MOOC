@@ -5,6 +5,7 @@ body{
 
 main {
   color: black;
+  height: 650px;
 }
 
 main a {
@@ -14,7 +15,7 @@ main a {
 
 header, footer {
   border: 1px black solid;
-  background: linear-gradient(90deg, rgba(0, 15, 82, 1) 0%, rgb(60, 123, 210) 100%);
+  background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
   color: lightgray;
 }
 
@@ -28,10 +29,17 @@ header, footer {
   background-color: #73cbcb;
   transition: transform .5s;
   border: 1px #08c0c0 solid;
+  border-radius: 10px;
 }
 
 .button:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+}
+
+body{
+  background-image: url(image_accueuil/paper_gif.gif);
+  background-size: cover;
+  background-position: center;
 }
