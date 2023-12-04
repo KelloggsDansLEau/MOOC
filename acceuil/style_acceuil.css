@@ -39,7 +39,7 @@ header, footer {
 }
 
 body{
-  background-image: url(image_accueuil/paper_gif.gif);
+  background-image: url(paper_gif.gif);
   background-size: cover;
   background-position: center;
 }
