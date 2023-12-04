@@ -1,0 +1,37 @@
+body{
+  margin: 0%;
+  background-color: lightgray;
+}
+
+main {
+  color: black;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+}
+
+header, footer {
+  border: 1px black solid;
+  background: linear-gradient(90deg, rgba(0, 15, 82, 1) 0%, rgb(60, 123, 210) 100%);
+  color: lightgray;
+}
+
+
+#IUT a{
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #73cbcb;
+  transition: transform .5s;
+  border: 1px #08c0c0 solid;
+}
+
+.button:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 100px;
+}
+
+header nav li{
+    flex-basis: 22%;
+    margin: 5px;
+}
+
+aside{
+    flex-basis: 20%;
+    border: black solid 1px;
+    margin: 10px;
+}
+
+.button {
+    width: 200px;
+    padding: 15px 32px;
+}
+
+main{
+    flex-basis: 68%;;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+main li{
+    margin: 10px;
+}
+
+main li h1{
+    margin-left: 10px;
+}

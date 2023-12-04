@@ -17,6 +17,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
+
 }
 
 li {
@@ -24,7 +25,7 @@ li {
     text-align: center;
     border: black solid 1px;
     flex-basis: 22%;
-
+    margin: 5px;
 }
 
 h1 {
@@ -35,7 +36,6 @@ h1 {
 .button {
     width: 400px;
     background-color: #08c0c0;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -43,10 +43,27 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition: transform .5s;
+    
 }
+.button:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.1); 
+  }
 
-section{
+
+
+  
+  .button:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.03); 
+  }
+
+main section{
     border: black solid 1px;
+    margin-bottom: 20px;
 }
 
 main{
@@ -61,3 +78,55 @@ aside{
     border: black solid 1px;
     margin: 10px;
 }
+
+div{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+#gpe {
+    margin: 5px;
+}
+
+aside section{
+    border: black solid 1px;
+    margin-bottom: 20px;
+}
+
+.skip {
+    width: 100;
+    background-color: #08c0c0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform .5s;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.skip:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+
+
+  
+  .skip:hover {
+    -ms-transform: scale(1.1); /* IE 9 /
+    -webkit-transform: scale(1.1); / Safari 3-8 */
+    transform: scale(1.05); 
+  }
