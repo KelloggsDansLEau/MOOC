@@ -3,7 +3,6 @@
 <body>
     <?php include('structure.php'); ?>
 
-    
     <main>
     <form action="page3.php" method="post" id="form">
         <input type="hidden" name="page" value="2">
@@ -36,7 +35,7 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q1_2">Quel est la valeur de cette expression ? </label>
+                        <label for="p2_q1_2">Quel est la valeur de cette expression ? (Si il y a une virgule, mettre un point. Exemple: 1.5)</label>
                         <input type="text" class="form-short-text" name="p2_q1_2">
                     </li>
                 </ul>
@@ -63,7 +62,7 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q2_2">Quel est la valeur de cette expression ? </label>
+                        <label for="p2_q2_2">Quel est la valeur de cette expression ? (Si il y a une virgule, mettre un point. Exemple: 1.5)</label>
                         <input type="text" class="form-short-text" name="p2_q2_2">
                     </li>
                 </ul>
@@ -90,7 +89,7 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q3_2">Quel est la valeur de cette expression ? </label>
+                        <label for="p2_q3_2">Quel est la valeur de cette expression ?  (Si il y a une virgule, mettre un point. Exemple: 1.5)</label>
                         <input type="text" class="form-short-text" name="p2_q3_2">
                     </li>
                 </ul>

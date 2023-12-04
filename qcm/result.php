@@ -57,7 +57,7 @@
     ?>
 
     <div class="congrats">
-        <h2>Votre note finale pour ce test est <?php echo $score/17*20?>/20,00 !</h2>
+        <h2>Votre note finale pour ce test est <?php echo round($score/17*20, 2)?>/20 !</h2>
         
         <?php if ($score/17*20 < 10){?>
             <p style="color: red;">Vous n'avez pas obtenu la moyenne. Ne perdez pas espoir, vous pouvez toujours vous améliorer !</p>
