@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 20%;*/
+    margin: 0%;
+}
+
+.button {
+  width: 50%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#bouttons {
+    margin-top: 7%;
+}

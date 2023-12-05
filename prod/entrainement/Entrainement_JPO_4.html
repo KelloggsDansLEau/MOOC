@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrainement thème 4</title>
+    <link rel="stylesheet" href="Entrainement_styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entrainement - Fonctions</h1>
+        <nav>  
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../cours/cours.html">Cours</a></li>
+                <li><a href="../entrainement/Entrainement_JPO_1.html">Entrainement</a></li>
+                <li><a href="../qcm/choixqcm.php">QCM Noté</a></li>
+                <li><a href="../qcm/leaderboard.php">Classement</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Exercice 4</h2>
+            <p>
+                Quelle est la valeur de retour de l'appel ma_fonction(3,-47) ?
+            </p>
+            <div id="code1">
+                <pre><code>
+    def ma_fonction(val1, val2):
+    if val1 > val2:
+    res = val1
+    else:
+    res = val2
+    return res
+                </code></pre>
+            </div>
+            <div>
+                <label for="1"></label>
+                <input type="text" id="1" name="Mon groupe" placeholder="Ex: -45" required minlength="4" maxlength="8" size="10" /> Réponse
+            </div>
+        </section>
+        <section>
+            <h2>Exercice 6</h2>
+            <p>
+                Que retourne l'appel à la fonction mystere suivant: mystere('Bulbizare') ?
+            </p>
+            <div id="code1">
+                <pre><code>
+    def mystere(mot):
+    x = 0
+    for caractere in mot:
+    if caractere == 'o':
+    x = x + 1
+    return x
+                </code></pre>
+            </div>
+            <div>
+                <label for="2"></label>
+                <input type="text" id="2" name="Mon groupe" placeholder="Ex: 789" required minlength="4" maxlength="8" size="10" /> Réponse
+            </div>
+        </section>
+        
+    <a href="Entrainement_JPO_3.html"><button id="skip" class="skip" type="button">Précédent</button></a>
+    <a href="Entrainement_JPO_5.html"><button id="skip" class="skip" type="button">Prochain Thème</button></a>
+    
+        
+    </main>
+    <footer>
+        <style>
+            footer{
+            text-align: center;
+            color: lightgray;
+            }
+
+            footer img{
+            float: right;
+            width: 80px;
+            }
+        </style>
+        <p>Copyright © 2023 MOOC Algorithme-Python - BUT 1 IUT Informatique d'Orleans</p>
+
+        <p>Created by <span style="color: white;">Alexis</span> N, <span style="color: white;">Axel</span> M, <span style="color: white;">Enzo</span> R, <span style="color: white;">Corentin</span> T, <span style="color: white;">Arthur</span> P.</p>
+        <img src="../img/iut.png" alt="logo_iut" id="logo_iut">
+        <img src="../img/univ.png" alt="logo_univ" id="logo_univ">
+    
+        <p>Sources :
+                <a href="https://smallpdf.com/fr/blog/telecharger-gratuitement-des-feuilles-a-petits-carreaux-au-format-pdf">Gif de fond</a>, 
+                <a href="https://celene.univ-orleans.fr">QCM Thème Celene</a>
+        </p>
+    </footer>
+</body>
+</html>
+

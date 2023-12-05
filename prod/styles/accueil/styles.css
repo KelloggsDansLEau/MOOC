@@ -1,0 +1,58 @@
+*{
+  font-family: "Segoe UI", Arial,"Noto Sans","Liberation Sans";
+}
+
+body{
+  margin: 0%;
+  background-color: lightgray;
+}
+
+main {
+  color: black;
+  height: 650px;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+}
+
+header, footer {
+  border: 1px black solid;
+  background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
+  color: lightgray;
+}
+
+
+#IUT a{
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #73cbcb;
+  transition: transform .5s;
+  border: 1px #08c0c0 solid;
+  border-radius: 10px;
+}
+
+.button:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+body{
+  background-image: url("../../img/paper_gif.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+footer{
+  text-align: center;
+}
+
+footer img{
+  float: right;
+  width: 80px;
+}

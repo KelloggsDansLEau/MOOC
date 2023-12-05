@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, nav {
+    flex-basis: 100%;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+main>ul{
+    margin: 20px;
+    padding: 0;
+}
+
+main li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;  
+}
