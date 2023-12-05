@@ -20,7 +20,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>4 / 2 + 6 / 2</code>
                 <ul>
                     <li>
@@ -47,7 +47,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>3 * 5 - 1 + 2</code>
                 <ul>
                     <li>
@@ -74,7 +74,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>True or False</code>
                 <ul>
                     <li>
@@ -89,7 +89,7 @@
                         
                     </li>
                     <li>
-                        <label for="p2_q3_2">Quel est la valeur de cette expression ?  (Si il y a une virgule, mettre un point. Exemple: 1.5)</label>
+                        <label for="p2_q3_2">Quel est la valeur de cette expression ?</label>
                         <input type="text" class="form-short-text" name="p2_q3_2">
                     </li>
                 </ul>

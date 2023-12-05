@@ -65,7 +65,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la variable ci-après :</p>
+            <p>Soit la variable:</p>
             <code>res = "toto"</code>
             <label for="p1_q2">Quel est le type de la variable res ?</label>
             <select id="p1_q2" name="p1_q2">
@@ -82,7 +82,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la variable ci-après :</p>
+            <p>Soit la variable:</p>
             <code>res = 47.5</code>
             <label for="p1_q3">Quel est le type de la variable res ?</label>
             <select id="p1_q3" name="p1_q3">
