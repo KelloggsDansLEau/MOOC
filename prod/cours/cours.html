@@ -98,27 +98,29 @@
             <li id="Cours_len">
                 <h2>6. La fonction len()</h2>
                 <div class="Cours">
-                    <p>La fonction len() en programmation est utilisée pour obtenir la longueur d'une séquence,
-                        telle qu'une chaîne de caractères, une liste, ou un tuple. <br><br>
-                        Elle retourne le nombre d'éléments présents dans la séquence. <br><br>
-                        len("paille") == 6<br><br>
-                        len("paille"*2) == 12<br><br>
-                        len("paille")*2 == 12<br><br>
+                    <p>La fonction len() est utilisée pour obtenir la longueur d'une structure de donnée
+                        telle qu'une chaîne de caractères,<br>une liste, ou un tuple.<br>
+                        Elle retourne le nombre d'éléments présents dans la structure de donnée.<br><br>
+                        len('paille') == 6<br><br>
+                        len('paille' * 2) == 12<br>
+                        En Python, il est possible de multiplier une chaîne de caractère par un entier, ce qui va concaténer la chaîne:<br>
+                        'paille' * 2 == 'paillepaille'<br><br>
+                        len('paille') * 2 == 12<br><br>
                         len(82) → Erreur<br><br>
-                        len(["toto", "tata", "paille"]) == 3</p>
+                        len(['toto', 'tata', 'paille']) == 3</p>
                 </div>
             </li>
             <li id="Cours_range">
                 <h2>7. La fonction range()</h2>
                 <div class="Cours">
-                    <p>La fonction range() en programmation est utilisée pour générer une séquence d'entiers dans un intervalle spécifié. 
+                    <p>La fonction range() est utilisée pour générer une séquence d'entiers dans un intervalle spécifié. 
                         Elle est souvent utilisée dans les "boucles for" pour itérer sur une séquence d'entiers.<br><br>
                         En Python, la fonction range() peut être utilisée de plusieurs manières, 
-                        mais la forme la plus courante est range(a), 
-                        où "a" est la valeur jusqu'à laquelle la séquence doit aller (non incluse). <br><br>
-                        Par exemple, range(5) générera la séquence d'entiers de 0 à 4.<br><br>
-                        Une autre forme courante est range(a, b), 
-                        où "a" est la valeur de départ de la séquence et" b" la valeur jusqu'à laquelle la séquence doit aller (non incluse).<br><br>
+                        mais la forme la plus courante est range(n),<br>
+                        où n est la valeur de fin de la séquence (non incluse): <br>
+                        Par exemple, range(5) générera la séquence d'entiers de 0 à 4 soit 0, 1, 2, 3, 4.<br><br>
+                        Une autre forme courante est range(n, p),<br>
+                        où n est la valeur de départ de la séquence et p la valeur de fin (non incluse):<br>
                         Par exemple, range(2, 8) générera la séquence d'entiers de 2 à 7.
                         </p>
                 </div>
