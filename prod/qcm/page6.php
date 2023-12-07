@@ -43,7 +43,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len('toto')</code>
             <label for="p6_q1">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q1">
@@ -56,7 +56,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len('toto' * 2)</code>
             <label for="p6_q2">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q2">
@@ -69,7 +69,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len(['roucoule', 'toto'])</code>
             <label for="p6_q3">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q3">

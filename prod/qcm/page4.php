@@ -57,7 +57,7 @@ def ma_fonction(val1, val2):
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction mystere suivant <strong>mystere('roucoule')</strong>?</p>
+            <p>Que retourne l'appel à la fonction <strong>mystere('roucoule')</strong>?</p>
 <pre><code>
 def mystere(mot):
     x = 0

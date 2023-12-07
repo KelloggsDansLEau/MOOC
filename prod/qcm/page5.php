@@ -38,7 +38,7 @@
             <p>Noté sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la fonction minimum définie ci-après, complétez la fonction de test :</p>
+            <p>Soit la fonction minimum définie, complétez la fonction de test:</p>
 <pre><code>
 def minimum(val1, val2):
     if val1 < val2:
