@@ -12,7 +12,6 @@
     $q4 = $_POST['easy_q4'];
     $q5 = $_POST['easy_q5'];
     $q6 = $_POST['easy_q6'];
-    $q7 = $_POST['easy_q7'];
 
     $score = 0;
     $score += $q1 == $easy_q1 ? 1 : 0;
@@ -21,9 +20,8 @@
     $score += $q4 == $easy_q4 ? 1 : 0;
     $score += $q5 == $easy_q5 ? 1 : 0;
     $score += $q6 == $easy_q6 ? 1 : 0;
-    $score += $q7 == $easy_q7 ? 1 : 0;
 
-    $score = round($score/7*10, 2);
+    $score = round($score/6*10, 2);
     ?>
 
     <div class="congrats">

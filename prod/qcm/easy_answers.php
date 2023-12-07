@@ -4,6 +4,5 @@
     $easy_q3 = 'algorithme';
     $easy_q4 = 'machine';
     $easy_q5 = 'suite';
-    $easy_q6 = 'valeur';
-    $easy_q7 = 'stoker';
+    $easy_q6 = 'stocker';
 ?>
