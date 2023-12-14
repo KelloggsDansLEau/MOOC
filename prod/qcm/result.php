@@ -9,6 +9,8 @@
 
     $score = 0;
 
+    $_POST['p7_q1'] = str_replace(' ', '', $_POST['p7_q1']);
+
     $tempscore = $_POST['p1_q1_1'] == $p1_q1_1 ? 1 : 0;
     $tempscore += $_POST['p1_q1_2'] == $p1_q1_2 ? 1 : 0;
     $tempscore += $_POST['p1_q1_3'] == $p1_q1_3 ? 1 : 0;
@@ -206,7 +208,7 @@
     </div>
 
     <div class="outcome" <?php echo $tempscore/4 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -228,7 +230,7 @@
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Soit la variable ci-après :</p>
+            <p>Soit la variable:</p>
             <code>res = "toto"</code>
             <label for="p1_q2">Quel est le type de la variable res ?</label>
             <select disabled id="p1_q2" <?php echo $post[$actual] == $req[$actual] ? 'class="check"' : 'class="wrong"'?> name="p1_q2">
@@ -242,7 +244,7 @@
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -261,7 +263,7 @@
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Soit la variable ci-après :</p>
+            <p>Soit la variable:</p>
             <code>res = 47.5</code>
             <label for="p1_q3">Quel est le type de la variable res ?</label>
             <select disabled id="p1_q3" <?php echo $post[$actual] == $req[$actual] ? 'class="check"' : 'class="wrong"'?> name="p1_q3">
@@ -274,7 +276,7 @@
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -297,7 +299,7 @@
             echo $tempscore/2?>/1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>4 / 2 + 6 / 2</code>
                 <ul>
                     <li>
@@ -321,7 +323,7 @@
         </div>
     </div>
     <div class="outcome" <?php echo $tempscore/2 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -343,7 +345,7 @@
             echo $tempscore/2?>/1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>3 * 5 - 1 + 2</code>
                 <ul>
                     <li>
@@ -367,7 +369,7 @@
         </div>
     </div>
     <div class="outcome" <?php echo $tempscore/2 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -389,7 +391,7 @@
             echo $tempscore/2?>/1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression ci-dessous :</p>
+            <p>Soit l'expression:</p>
             <code>True or False</code>
                 <ul>
                     <li>
@@ -413,7 +415,7 @@
         </div>
     </div>
     <div class="outcome" <?php echo $tempscore/2 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -501,7 +503,7 @@
     </div>
 
     <div class="outcome" <?php echo $tempscore/5 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:</div>
@@ -563,15 +565,15 @@
             <label for="p3_q2">Que fait l'algorithme ?</label>
             <select disabled <?php echo $post[$actual] == $req[$actual] ? 'class="check"' : 'class="wrong"'?> id="p3_q2" name="p3_q2">
                 <option value="" <?php echo $post[$actual] == "" ? 'selected' : ''?>></option>
-                <option value="c1" <?php echo $post[$actual] == "c1" ? 'selected' : ''?>>Lorem ipsum dolor sit amet</option>
-                <option value="c2" <?php echo $post[$actual] == "c2" ? 'selected' : ''?>>Lorem ipsum dolor sit amet consectetur adipisicing elit.</option>
+                <option value="c1" <?php echo $post[$actual] == "c1" ? 'selected' : ''?>>Indique si il y a plus de consonnes que de voyelles dans un mot</option>
+                <option value="c2" <?php echo $post[$actual] == "c2" ? 'selected' : ''?>>Renvoie le nombre de voyelles d'un mot</option>
                 <option value="c3" <?php echo $post[$actual] == "c3" ? 'selected' : ''?>>Indique si il y a plus de voyelles que de consonnes dans un mot</option>
-                <option value="c4" <?php echo $post[$actual] == "c4" ? 'selected' : ''?>>Lorem ipsum dolor sit amet consectetur adipisicing.</option>
+                <option value="c4" <?php echo $post[$actual] == "c4" ? 'selected' : ''?>>Renvoie le nombre de consonnes d'un mot</option>
             </select>
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : ''?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -606,7 +608,7 @@ def ma_fonction(val1, val2):
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -626,7 +628,7 @@ def ma_fonction(val1, val2):
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction mystere suivant <strong>mystere('roucoule')</strong>?</p>
+            <p>Que retourne l'appel à la fonction <strong>mystere('roucoule')</strong>?</p>
 <pre><code>
 def mystere(mot):
     x = 0
@@ -640,7 +642,7 @@ def mystere(mot):
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -665,7 +667,7 @@ def mystere(mot):
             echo $tempscore/3?>/1,00</p>
         </div>
         <div class="content">
-            <p>Soit la fonction minimum définie ci-après, complétez la fonction de test :</p>
+            <p>Soit la fonction minimum définie, complétez la fonction de test:</p>
 <pre><code>
 def minimum(val1, val2):
     if val1 < val2:
@@ -682,7 +684,7 @@ def test_minimum():
         </div>
     </div>
     <div class="outcome" <?php echo $tempscore/3 < 1 ? '' : 'hidden'?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -706,14 +708,14 @@ def test_minimum():
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len('toto')</code>
             <label for="p6_q1">Réponse: </label>
             <input disabled <?php echo $post[$actual] == $req[$actual] ? 'class="form-short-text check"' : 'class="form-short-text wrong"'?> value="<?php echo $post[$actual]?>" type="text" name="p6_q1">
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -732,14 +734,14 @@ def test_minimum():
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len('toto' * 2)</code>
             <label for="p6_q2">Réponse: </label>
             <input disabled <?php echo $post[$actual] == $req[$actual] ? 'class="form-short-text check"' : 'class="form-short-text wrong"'?> value="<?php echo $post[$actual]?>" type="text" name="p6_q2">
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -758,14 +760,14 @@ def test_minimum():
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction len ci-après:</p>
+            <p>Que retourne l'appel à la fonction:</p>
             <code>len(['roucoule', 'toto'])</code>
             <label for="p6_q3">Réponse: </label>
             <input disabled <?php echo $post[$actual] == $req[$actual] ? 'class="form-short-text check"' : 'class="form-short-text wrong"'?> value="<?php echo $post[$actual]?>" type="text" name="p6_q3">
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -789,20 +791,21 @@ def test_minimum():
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel ( le plus simple possible: range(a,b) ) de la fonction range permettant de générer la séquence de nombres suivante:
+            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante:
                 <span style="color: #FF00BF;">2, 3, 4, 5</span>
             </p>
+            <p><span style="font-style: italic;">Vous écrirez votre résultat sous la forme range(a, b). Par exemple range(7, 9)</span></p>
             <label for="p7_q1">Réponse: </label>
             <input disabled <?php echo $post[$actual] == $req[$actual] ? 'class="form-text check"' : 'class="form-text wrong"'?> value="<?php echo $post[$actual]?>" type="text" name="p7_q1">
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
                 <ul>
-                    <li>range(2,6)</li>
+                    <li>range(2, 6)</li>
                 </ul>
             </div>
 
@@ -826,7 +829,7 @@ def test_minimum():
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:
@@ -846,15 +849,16 @@ def test_minimum():
             <p><?php echo $post[$actual] == $req[$actual] ? 1 : 0;?>/1</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel ( le plus simple possible: range(a) ) de la fonction range permettant de générer la séquence de nombres suivante:
-                <span style="color: #FF00BF;">0, 1 2, 3, 4, 5</span>
+            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante:
+                <span style="color: #FF00BF;">0, 1, 2, 3, 4, 5</span>
             </p>
+            <p><span style="font-style: italic;">Vous écrirez votre résultat sous la forme range(a). Par exemple range(7)</span></p>
             <label for="p7_q3">Réponse: </label>
             <input disabled <?php echo $post[$actual] == $req[$actual] ? 'class="form-text check"' : 'class="form-text wrong"'?> value="<?php echo $post[$actual]?>" type="text" name="p7_q3">
         </div>
     </div>
     <div class="outcome" <?php echo $post[$actual] == $req[$actual] ? 'hidden' : '';?>>
-        <h4>Feedback</h4>
+        <h4>Correction</h4>
         <div class="feedback">
             <div class="specificfeedback">Votre réponse est incorrecte.</div>
             <div class="rightanswer">La réponse correcte est:

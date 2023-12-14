@@ -6,11 +6,11 @@
     <main>
     <form action="page2.php" method="post" id="form">
         <input type="hidden" name="page" value="1">
-    <h1 id="titlepage">QCM Noté : les Types</h1>
+    <h1 id="titlepage">QCM Noté : 1. les Types</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
             <p>Choisissez les noms des types de bases du langage Python :</p>
@@ -62,34 +62,32 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la variable:</p>
+            <p>Soit la variable :</p>
             <code>res = "toto"</code>
             <label for="p1_q2">Quel est le type de la variable res ?</label>
             <select id="p1_q2" name="p1_q2">
                 <option value=""></option><option value="float">float</option>
                 <option value="int">int</option><option value="str">str</option>
-                <option value="bool">bool</option><option value="set">set</option>
-                <option value="dict">dict</option>
+                <option value="bool">bool</option>
             </select>
         </div>
     </div>
     <div class="question">
         <div class="info">
             <h3>Question 3</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la variable:</p>
+            <p>Soit la variable :</p>
             <code>res = 47.5</code>
             <label for="p1_q3">Quel est le type de la variable res ?</label>
             <select id="p1_q3" name="p1_q3">
                 <option value=""></option><option value="float">float</option>
                 <option value="int">int</option><option value="str">str</option>
-                <option value="bool">bool</option><option value="set">set</option>
-                <option value="dict">dict</option>
+                <option value="bool">bool</option>
             </select>
         </div>
     </div>

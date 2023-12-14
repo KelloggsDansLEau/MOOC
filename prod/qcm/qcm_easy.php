@@ -75,7 +75,7 @@
             </p>
             <select id="easy_q5" name="easy_q5">
                 <option value=""></option>
-                <option value="suite">Une suite d'instructions qui définissent un sous-programme et qui renvoient un résultat</option>
+                <option value="suite">Une suite d'instructions qui définissent un sous-programme et qui renvoie un résultat</option>
                 <option value="machine">Une machine automatique de traitement de l'information</option>
                 <option value="role">Rôle exercé par quelqu'un au sein d'un groupe, d'une activité</option>
                 <option value="valeur">Un ensemble de valeurs permettant la création d’une variable</option>

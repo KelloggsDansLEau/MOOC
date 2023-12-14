@@ -31,14 +31,14 @@
         <input type="hidden" name="p4_q2" value="<?php echo $_POST['p4_q2']?>">
 
 
-    <h1 id="titlepage">QCM Noté : les Assertions</h1>
+    <h1 id="titlepage">QCM Noté : 5. les Assertions</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit la fonction minimum définie, complétez la fonction de test:</p>
+            <p>Soit la fonction minimum définie, complétez la fonction de test :</p>
 <pre><code>
 def minimum(val1, val2):
     if val1 < val2:

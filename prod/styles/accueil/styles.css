@@ -1,15 +1,22 @@
 *{
   font-family: "Segoe UI", Arial,"Noto Sans","Liberation Sans";
 }
-
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
 body{
   margin: 0%;
   background-color: lightgray;
+  display: flex;
+  flex-direction: column;
 }
+
 
 main {
   color: black;
-  height: 650px;
+  flex-basis: 100%;
 }
 
 main a {
@@ -17,12 +24,16 @@ main a {
   color: black;
 }
 
-header, footer {
+header { 
   border: 1px black solid;
   background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
   color: lightgray;
 }
 
+footer {
+  background: linear-gradient(45deg, #346081 0%, #1f68a0 100%);
+  color: lightgray;
+}
 
 #IUT a{
   color: white;
@@ -30,9 +41,9 @@ header, footer {
 }
 
 .button {
-  background-color: #73cbcb;
+  background-color: rgba(115, 203, 203, 0.9);
   transition: transform .5s;
-  border: 1px #08c0c0 solid;
+  border: 1px rgba(115, 203, 203, 0.5) solid;
   border-radius: 10px;
 }
 
@@ -46,6 +57,7 @@ body{
   background-image: url("../../img/paper_gif.gif");
   background-size: cover;
   background-position: center;
+
 }
 
 footer{

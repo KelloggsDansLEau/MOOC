@@ -13,14 +13,14 @@
         <input type="hidden" name="p1_q1_4" value="<?php echo $_POST['p1_q1_4']?>">
         <input type="hidden" name="p1_q2" value="<?php echo $_POST['p1_q2']?>">
         <input type="hidden" name="p1_q3" value="<?php echo $_POST['p1_q3']?>">
-    <h1 id="titlepage">QCM Noté : les Opérateurs (or, and, *, +, /)</h1>
+    <h1 id="titlepage">QCM Noté : 2. les Opérateurs (or, and, *, +, /)</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression:</p>
+            <p>Soit l'expression :</p>
             <code>4 / 2 + 6 / 2</code>
                 <ul>
                     <li>
@@ -44,10 +44,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression:</p>
+            <p>Soit l'expression :</p>
             <code>3 * 5 - 1 + 2</code>
                 <ul>
                     <li>
@@ -71,10 +71,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 3</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Soit l'expression:</p>
+            <p>Soit l'expression :</p>
             <code>True or False</code>
                 <ul>
                     <li>

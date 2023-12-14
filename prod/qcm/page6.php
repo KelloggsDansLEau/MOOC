@@ -36,14 +36,14 @@
         <input type="hidden" name="p5_q1_3" value="<?php echo $_POST['p5_q1_3']?>">
 
 
-    <h1 id="titlepage">QCM Noté : Fonction len()</h1>
+    <h1 id="titlepage">QCM Noté : 6. Fonction len()</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction:</p>
+            <p>Que retourne l'appel à la fonction :</p>
             <code>len('toto')</code>
             <label for="p6_q1">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q1">
@@ -53,10 +53,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction:</p>
+            <p>Que retourne l'appel à la fonction :</p>
             <code>len('toto' * 2)</code>
             <label for="p6_q2">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q2">
@@ -66,10 +66,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 3</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction:</p>
+            <p>Que retourne l'appel à la fonction :</p>
             <code>len(['roucoule', 'toto'])</code>
             <label for="p6_q3">Réponse: </label>
             <input type="text" class="form-short-text" name="p6_q3">

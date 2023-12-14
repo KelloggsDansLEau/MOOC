@@ -30,14 +30,14 @@
 
         
 
-    <h1 id="titlepage">QCM Noté : les Fonctions</h1>
+    <h1 id="titlepage">QCM Noté : 4. les Fonctions</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Quelle est la valeur de retour de l'appel <strong>ma_fonction(22, 10)</strong>?</p>
+            <p>Quelle est la valeur de retour de l'appel <strong>ma_fonction(22, 10)</strong> ?</p>
 <pre><code>
 def ma_fonction(val1, val2):
     if val1 > val2:
@@ -54,10 +54,10 @@ def ma_fonction(val1, val2):
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>Que retourne l'appel à la fonction <strong>mystere('roucoule')</strong>?</p>
+            <p>Que retourne l'appel à la fonction <strong>mystere('roucoule')</strong> ?</p>
 <pre><code>
 def mystere(mot):
     x = 0

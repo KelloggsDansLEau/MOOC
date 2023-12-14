@@ -21,11 +21,11 @@
         <input type="hidden" name="p2_q3_1" value="<?php echo $_POST['p2_q3_1']?>">
         <input type="hidden" name="p2_q3_2" value="<?php echo $_POST['p2_q3_2']?>">
 
-    <h1 id="titlepage">QCM Noté : les Algorithmes</h1>
+    <h1 id="titlepage">QCM Noté : 3. les Algorithmes</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
             <p>On considère l'algorithme compte_voiture_rouges qui compte le nombre de voitures rouges.</p>
@@ -84,10 +84,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 1,00</p>
+            <p>Notée sur 1,00</p>
         </div>
         <div class="content">
-            <p>On considère l'algorithme mystere suivant:</p>
+            <p>On considère l'algorithme mystere suivant :</p>
             <pre><code>
 <span class="underline">algo</span>: mystere
     <span class="underline">paramètre</span>: le_mot (chaine) : un mot

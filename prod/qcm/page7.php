@@ -39,14 +39,14 @@
         <input type="hidden" name="p6_q2" value="<?php echo $_POST['p6_q2']?>">
         <input type="hidden" name="p6_q3" value="<?php echo $_POST['p6_q3']?>">
 
-    <h1 id="titlepage">QCM Noté : Fonction range()</h1>
+    <h1 id="titlepage">QCM Noté : 7. Fonction range()</h1>
     <div class="question">
         <div class="info">
             <h3>Question 1</h3>
-            <p>Noté sur 0,25</p>
+            <p>Notée sur 1</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante:
+            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante :
                 <span style="color: #FF00BF;">2, 3, 4, 5</span>
             </p>
             <p><span style="font-style: italic;">Vous écrirez votre résultat sous la forme range(a, b). Par exemple range(7, 9)</span></p>
@@ -58,10 +58,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 2</h3>
-            <p>Noté sur 0,25</p>
+            <p>Notée sur 1</p>
         </div>
         <div class="content">
-            <p>Donnez la séquence de valeurs générées par l'expression 
+            <p>Donnez la séquence de valeurs générées par l'expression
                 <span style="color: #FF00BF;">range(3)</span>
             </p>
             <p><span style="font-style: italic;">Vous écrirez votre résultat sous la forme de nombres séparés par des virgules. Par exemple 1,2,3,4,5 (sans espaces, ni crochets, ni guillemets)</span></p>
@@ -73,10 +73,10 @@
     <div class="question">
         <div class="info">
             <h3>Question 3</h3>
-            <p>Noté sur 0,25</p>
+            <p>Notée sur 1</p>
         </div>
         <div class="content">
-            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante:
+            <p>Ecrivez l'appel de la fonction range() permettant de générer la séquence de nombres suivante :
                 <span style="color: #FF00BF;">0, 1, 2, 3, 4, 5</span>
             </p>
             <p><span style="font-style: italic;">Vous écrirez votre résultat sous la forme range(a). Par exemple range(7)</span></p>

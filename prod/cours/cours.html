@@ -23,26 +23,25 @@
     <main>
         <ul>
             <li id="cours_type">
-                <h2>1. Qu'est-ce qu'un type ?</h2>
+                <h2>1. Qu'est-ce qu'un type de valeur ?</h2>
                 <div class="Cours">
-                    <p>En Python il existe différents types de valeurs : <br>
-                        <br>
-                        Les entiers relatifs sont nommés: int<br>
+                    <p>En Python il existe différents types de valeurs.<br>
+                        Les entiers relatifs sont nommés int :<br>
                         15 ou -3 sont des int.<br>
                         <br>
-                        Les réels sont nommés: float<br>
+                        Les réels sont nommés float :<br>
                         15.5 est un float.<br>
                         <br>
-                        Les booléens ont deux états différents, True ou False (Vrai ou Faux) et sont nommés: bool<br>
+                        Les booléens ont deux valeurs, True ou False (Vrai ou Faux) et sont nommés bool :<br>
                         16 &lt; 18 est un bool à True.<br>
                         <br>
-                        Les chaînes de caractères sont quant à elles nommées: str<br>
-                        'Programmation' et 'c' sont des str. Respectivement une chaîne de caractère et un caractère.<br>
+                        Les chaînes de caractères sont quant à elles nommées str :<br>
+                        'Programmation', "toto" et 'c' sont des str, respectivement deux chaînes de caractères et un caractère.<br>
                         <br>
-                        list: Une liste est déclarée par une série de valeurs séparées par des virgules, le tout encadré par des crochets. Elle est mutable, c'est-à-dire qu’on peut modifier ou supprimer les éléments qu’elle contient.<br>
-                        [15, 76, 89, 'ordinateur'] est une liste.<br>
+                        Une liste est déclarée par une série de valeurs séparées par des virgules, le tout encadré par des crochets. Elle est mutable, c'est-à-dire qu’on peut modifier ou supprimer les éléments qu’elle contient et est nommée list :<br>
+                        [15, 76, 89, 'ordinateur'] est une list.<br>
                         <br>
-                        tuple: Un tuple est une séquence non modifiable de valeurs (immutable).<br>
+                        Un tuple est une séquence non modifiable de valeurs (immutable) :<br>
                         ('apple', 'pomme') est un tuple.<br>
                         <br>
                         <br>
@@ -58,11 +57,11 @@
                         Une expression a un type et une valeur.<br>
                         Comme en mathématiques, les expressions sont évaluées suivant les priorités des opérateurs et des parenthèses :<br>
                         <br>
-                        1. or : "expression or expression" si une des expression est vraie alors la condition est vraie:<br>
-                        True or False: True est vraie, alors la condition est vraie.<br><br>
-                        2. and : "expression and expression" il faut que les deux soient vraies pour que la condition soit vraie:<br>
-                        True and False: False n'est pas vraie, la condition est donc fausse.<br><br>
-                        3. == et != : Égalité, Différent<br><br>
+                        1. or : "expression or expression" si une des expression est vraie alors la condition est vraie :<br>
+                        True or False : True est vraie, alors la condition est vraie.<br><br>
+                        2. and : "expression and expression" il faut que les deux soient vraies pour que la condition soit vraie :<br>
+                        True and False : False n'est pas vraie, la condition est donc fausse.<br><br>
+                        3. == et != : Égalité, Différence<br><br>
                         4. + et - : Addition, Soustraction<br><br>
                         5. * et / : Multiplication, Division<br><br>
                     </p>
@@ -90,17 +89,17 @@
                 <h2>5. Qu'est-ce qu'une assertion ?</h2>
                 <div class="Cours">
                     <p>
+						Une assertion est une proposition présentée comme vraie. Ne contenant aucune preuve de sa véracité, une assertion est potentiellement fausse.
                         L'instruction assert est utilisée pour tester qu’une fonction renvoie le résultat attendu.<br>
-                        Cependant, elle ne permet pas de s'assurer qu'une fonction renvoie toujours le bon résultat, il faudrait un nombre d'assertions trop conséquent, ou une propriété.<br><br>
+                        Cependant, elle ne permet pas de s'assurer qu'une fonction renvoie le bon résultat dans tous les cas possible, il faudrait un nombre de tests trop conséquent.<br><br>
                     </p>
                 </div>
             </li>
             <li id="Cours_len">
                 <h2>6. La fonction len()</h2>
                 <div class="Cours">
-                    <p>La fonction len() est utilisée pour obtenir la longueur d'une structure de donnée
-                        telle qu'une chaîne de caractères,<br>une liste, ou un tuple.<br>
-                        Elle retourne le nombre d'éléments présents dans la structure de donnée.<br><br>
+                    <p>La fonction len() est utilisée pour obtenir la longueur d'une structure de données
+                        telle qu'une chaîne de caractères, une liste, ou un tuple. Elle retourne le nombre d'éléments présents dans la structure de données.<br><br>
                         len('paille') == 6<br><br>
                         len('paille' * 2) == 12<br>
                         En Python, il est possible de multiplier une chaîne de caractère par un entier, ce qui va concaténer la chaîne:<br>

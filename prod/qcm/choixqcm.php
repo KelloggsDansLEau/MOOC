@@ -12,7 +12,7 @@
             <button id="showAnswers" class="button-65">Lancer le QCM Débutant</button></a>
         </form>
         <form action="page1.php" method="post">
-            <button class="button-65">Lancer le QCM Normal</button>
+            <button class="button-65">Lancer le QCM Avancé</button>
         </form>
     </div>
     <footer>
